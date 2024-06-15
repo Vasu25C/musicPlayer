@@ -1,0 +1,55 @@
+
+/* Body Styles */
+body {
+  background-color: #87e2f5; /* Light Pink */
+}
+
+/* Container Styles */
+.container {
+  background-color: #6fe0ef; /* Light Blue */
+  padding: 20px;
+  max-width: 90%; /* Adjusted for mobile */
+  margin: 0 auto;
+  text-align: center; /* Center content */
+}
+/* Audio Player Styles */
+.audio-player {
+  border: 2px solid #a1c2c6; /* Black */
+  margin-bottom: 20px;
+}
+
+
+/* Playlist Styles */
+.playlist {
+  max-height: 300px; /* Adjusted for mobile */
+  overflow-y: auto;
+}
+
+/* Playlist Item Styles */
+.playlist-item {
+  background-color: #5ac1e7; /* #cbeef1 */
+  border: 1px solid #55aace; /* #8dddf5 */
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Adjusted for mobile */
+}
+
+/* Active Playlist Item Styles */
+.playlist-item.active {
+  background-color: #F48FB1; /* Light #72d3f0 */
+}
+
+/* Custom Button Styles */
+.btn {
+  background-color: #afdfee; /* Black */
+  color: #97e6eb; /* #99e3f2 */
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Custom Button Hover Styles */
+.btn:hover {
+  background-color: #8eceee; /* Dark #91d0eb */
+}
